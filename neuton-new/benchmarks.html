@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">-->
+
+    <title>Benchmarks</title>
+    <link rel="stylesheet" href="extension/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="extension/font-awesome/css/all.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/benchmarks.css" />
+</head>
+
+<body>
+    <div class="header-dummy"></div>
+    <header class="header js-header">
+        <div class="container">
+            <div class="header__content">
+                <a href="/" class="header__content-logo"></a>
+    
+                <menu class="header__content-links">
+                    <a href="" class="header__content-links-one">About Us</a>
+                    <a href="" class="header__content-links-one">Contact</a>
+                    <a href="" class="header__content-links-one">Login</a>
+                </menu>
+    
+                <div class="header__content-menu">
+                    <a class="header__content-menu-link js-headerMenuLink">
+                        <span class="fa fa-bars header__content-menu-link-icon"></span>
+                        <span class="header__content-menu-link-text">Menu</span>
+                    </a>
+                    <a class="header__content-menu-link _close js-headerMenuLink">
+                        <span class="fa fa-times header__content-menu-link-icon"></span>
+                        <span class="header__content-menu-link-text">Close</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="header-menu">
+            <div class="container">
+                <menu class="header-menu__row">
+                    <div class="header-menu__row-col">
+                        <a href="" class="header-menu__row-col-link">Features</a>
+                        <a href="" class="header-menu__row-col-link">Neuton is Currently Featuring</a>
+                        <a href="" class="header-menu__row-col-link">Problems Neuton is Currently Solving</a>
+                        <a href="" class="header-menu__row-col-link">Positioned for the Future</a>
+                    </div>
+                    <div class="header-menu__row-col">
+                        <a href="" class="header-menu__row-col-link">Neuton’s Devine Journey</a>
+                        <a href="" class="header-menu__row-col-link">Neuton’s Story</a>
+                        <a href="" class="header-menu__row-col-link">Use Cases</a>
+                        <a href="" class="header-menu__row-col-link">Industry Recognition</a>
+                    </div>
+                    <div class="header-menu__row-col">
+                        <a href="" class="header-menu__row-col-link">Benchmarks</a>
+                        <a href="" class="header-menu__row-col-link">Neuton vs. Competitors</a>
+                        <a href="" class="header-menu__row-col-link">Accuracy to Sample Size</a>
+                    </div>
+                    <div class="header-menu__row-col">
+                        <a href="" class="header-menu__row-col-link">Try and Buy</a>
+                        <a href="" class="header-menu__row-col-link">Try Models Built with Neuton</a>
+                        <a href="" class="header-menu__row-col-link">Free Trial</a>
+                        <a href="" class="header-menu__row-col-link">Pricing Plans</a>
+                    </div>
+                    <div class="header-menu__row-col">
+                        <a href="" class="header-menu__row-col-link">Support</a>
+                        <a href="" class="header-menu__row-col-link">FAQ</a>
+                        <a href="" class="header-menu__row-col-link">Release Notes</a>
+                        <a href="" class="header-menu__row-col-link">Video Tutorials</a>
+                    </div>
+                </menu>
+            </div>
+        </div>
+    </header>
+
+    <div class="sub-header m-bg">
+        <div class="container">
+            <div class="sub-header__content">
+                <h1 class="sub-header__content-title">Benchmarks</h1>
+                <div class="sub-header__content-brcr">home / Benchmarks</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img-block__big-title m-noLine">
+            <div class="img-block__big-title-square"></div>
+            <div class="img-block__big-title-text">Benchmarks</div>
+        </div>
+
+        <div class="benchmarks">
+            <div class="benchmarks__content">
+                <!-- Nav tabs -->
+                <ul class="benchmarks__content-list">
+                    <li class="benchmarks__content-list-item">
+                        <a class="benchmarks__content-list-item-link js-bTableLink active">Neural</a>
+                    </li>
+                    <li class="benchmarks__content-list-item">
+                        <a class="benchmarks__content-list-item-link js-bTableLink">Non-neural+Neural</a>
+                    </li>
+                </ul>
+                <div class="benchmarks__content-switch">
+                    <div class="benchmarks__content-switch-text">
+                        Maximum accuracy
+                    </div>
+                    <div class="benchmarks__content-switch-btn js-benchmarkSwitch"></div>
+                    <div class="benchmarks__content-switch-text">
+                        Accuracy similar to other frameworks
+                    </div>
+                </div>
+
+                <!-- Tab panes -->
+                <div class="benchmarks__content-panels js-bTables">
+                    <div class="benchmarks__content-panels-one js-bPanel" id="neural">
+                        <div class="benchmarks__dropdown js-bmDropdown">
+                            <a class="benchmarks__dropdown-link js-bmListLink">
+                                <span class="js-bmListCurrent">Neurons </span>
+                                <span class="caret"></span>
+                            </a>
+
+                            <ul class="benchmarks__dropdown-menu js-bmList">
+                                <li data-td='["1","2"]'>Neurons</li>
+                                <li data-td='["3","4"]'>Coefficients</li>
+                                <li data-td='["5","6"]'>Samples</li>
+                                <li data-td='["7","8"]'>Max Error</li>
+                                <li data-td='["9"]'>Metric</li>
+                                <li data-td='["10","11"]'>Metric value</li>
+                                <li data-td='["12","13"]'>Size, KB*</li>
+                            </ul>
+                        </div>
+
+                        <div class="benchmarks__table-decor">
+                            <div class="benchmarks__table-wrap">
+                                <table class="table benchmarks__table js-bTable">
+                                    <tr>
+                                        <th rowspan="2">Dataset</th>
+                                        <th colspan="2">Neurons</th>
+                                        <th colspan="2">Coefficients</th>
+                                        <th colspan="2">Samples </th>
+                                        <th colspan="2">Max Error</th>
+                                        <th rowspan="2">Metric</th>
+                                        <th colspan="2">Metric value</th>
+                                        <th colspan="2">Size, KB*</th>
+                                    </tr>
+
+                                    <tr>
+                                        <th>
+                                            Classic<br />NN
+                                        </th>
+                                        <th class="pink">Neuton</th>
+                                        <th>
+                                            Classic<br />NN
+                                        </th>
+                                        <th class="pink">Neuton</th>
+                                        <th>
+                                            Classic<br />NN
+                                        </th>
+                                        <th class="pink">Neuton</th>
+                                        <th>
+                                            Classic<br />NN
+                                        </th>
+                                        <th class="pink">Neuton</th>
+                                        <th>
+                                            Classic<br />NN
+                                        </th>
+                                        <th class="pink">Neuton</th>
+                                        <th>
+                                            Classic<br />NN
+                                        </th>
+                                        <th class="pink">Neuton</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Titanic</td>
+                                        <td class="shown">63</td>
+                                        <td class="pink shown">14</td>
+
+                                        <td>807</td>
+                                        <td class="pink">336</td>
+
+                                        <td>712</td>
+                                        <td class="pink">445</td>
+
+                                        <td>-</td>
+                                        <td>-</td>
+
+                                        <td>Accuracy, %</td>
+
+                                        <td>75.24</td>
+                                        <td class="pink">83.20</td>
+
+                                        <td>3.15</td>
+                                        <td class="pink">1.31</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Schools</td>
+                                        <td class="shown">10</td>
+                                        <td class="pink shown">19</td>
+
+                                        <td>175</td>
+                                        <td class="pink">475</td>
+
+                                        <td>112</td>
+                                        <td class="pink">112</td>
+
+                                        <td>-</td>
+                                        <td>-</td>
+
+                                        <td>Accuracy, %</td>
+
+                                        <td>67.18</td>
+                                        <td class="pink">83.87</td>
+
+                                        <td>0.68</td>
+                                        <td class="pink">1.80</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>HR</td>
+                                        <td class="shown">13</td>
+                                        <td class="pink shown">3</td>
+
+                                        <td>337</td>
+                                        <td class="pink">153</td>
+
+                                        <td>1,029</td>
+                                        <td class="pink">784</td>
+
+                                        <td>-</td>
+                                        <td>-</td>
+
+                                        <td>Accuracy, %</td>
+
+                                        <td>86.98</td>
+                                        <td class="pink">89.34</td>
+
+                                        <td>1.32</td>
+                                        <td class="pink">0.59</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Boston housing</td>
+                                        <td class="shown">177</td>
+                                        <td class="pink shown">11</td>
+
+                                        <td>6,465</td>
+                                        <td class="pink">275</td>
+
+                                        <td>404</td>
+                                        <td class="pink">328</td>
+
+                                        <td>0.94</td>
+                                        <td class="pink">0.13</td>
+
+                                        <td>MAE</td>
+
+                                        <td>0.06</td>
+                                        <td class="pink">0.03</td>
+
+                                        <td>25.25</td>
+                                        <td class="pink">1.07</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UCI Air quality</td>
+                                        <td class="shown">15</td>
+                                        <td class="pink shown">14</td>
+
+                                        <td>197</td>
+                                        <td class="pink">378</td>
+
+                                        <td>7,577</td>
+                                        <td class="pink">6,333</td>
+
+                                        <td>0.76</td>
+                                        <td class="pink">0.05</td>
+
+                                        <td>MAE</td>
+
+                                        <td>0.03</td>
+                                        <td class="pink">0.002</td>
+
+                                        <td>0.77</td>
+                                        <td class="pink">1.35</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="benchmarks__info">
+                            <div class="benchmarks__info-title">
+                                * - Size of models without metadata
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Similar results are produced with such frameworks
+                            as
+                            TensorFlow, Caffe2, CNTK, Torch, Theano<br />
+                            &nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;All datasets were identically preprocessed WITHOUT
+                            FEATURE
+                            ENGINEERING performed<br />
+                            &nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Neuton has two benchmarks for “Neural”: with
+                            accuracy
+                            similar to competitors and with maximum accuracy achieved
+                        </div>
+                    </div>
+
+                    <div class="benchmarks__content-panels-one" id="nonNeural">
+                        <div class="js-tabs">
+                            <ul class="benchmarks__content-sublist">
+                                <li class="benchmarks__content-sublist-link active js-panelLink" data-panel="#titanic">
+                                    Titanic</li>
+                                <li class="benchmarks__content-sublist-link js-panelLink" data-panel="#schools">Schools
+                                </li>
+                                <li class="benchmarks__content-sublist-link js-panelLink" data-panel="#hr">HR</li>
+                                <li class="benchmarks__content-sublist-link js-panelLink" data-panel="#bostonHousing">
+                                    Boston
+                                    Housing</li>
+                                <li class="benchmarks__content-sublist-link js-panelLink" data-panel="#airQuality">AIR
+                                    Quality</li>
+                            </ul>
+
+                            <div class="benchmarks__content-tab js-tab js-bPanel" id="airQuality">
+                                <div class="benchmarks__content-info">Regression problem</div>
+                                <div class="benchmarks__dropdown js-bmDropdown">
+                                    <a class="benchmarks__dropdown-link js-bmListLink">
+                                        <span class="js-bmListCurrent">MAE</span>
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="benchmarks__dropdown-menu js-bmList">
+                                        <li data-td='["1"]'>MAE</li>
+                                        <li data-td='["2"]'>MAE max</li>
+                                        <li data-td='["3"]'>MAE min</li>
+                                        <li data-td='["4"]'>RMSE</li>
+                                        <li data-td='["6"]'>R<sup>2</sup></li>
+                                        <li data-td='["5"]'>RMSLE</li>
+                                        <li data-td='["7"]'>Size, KB*</li>
+                                    </ul>
+                                </div>
+                                <div class="benchmarks__table-decor">
+                                    <div class="benchmarks__table-wrap">
+                                        <table class="table benchmarks__table js-bTable">
+                                            <tr>
+                                                <th></th>
+                                                <th>MAE</th>
+                                                <th>MAE max</th>
+                                                <th>MAE min</th>
+                                                <th>RMSE</th>
+                                                <th>R<sup>2</sup></th>
+                                                <th>RMSLE</th>
+                                                <th>Size KB*</th>
+                                            </tr>
+
+                                            <tr class="pink">
+                                                <td>Neuton (Ensemble)</td>
+                                                <td class="shown">0.0002</td>
+                                                <td>0.0431</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0015</td>
+
+                                                <td>0.9998</td>
+                                                <td>0.0009</td>
+
+                                                <td class="red right">8.27</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Decision TreeRegressor</td>
+                                                <td class="shown">0.0003</td>
+                                                <td>0.0544</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0017</td>
+
+                                                <td>0.9997</td>
+                                                <td>0.0010</td>
+
+                                                <td class="right">81.97</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>RandomForestRegressor</td>
+                                                <td class="shown">0.0003</td>
+                                                <td>0.0772</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0023</td>
+
+                                                <td>0.9991</td>
+                                                <td>0.0014</td>
+
+                                                <td class="right">641.77</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>GradientBoostingRegressor</td>
+                                                <td class="shown">0.0009</td>
+                                                <td>0.0619</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0023</td>
+
+                                                <td>0.9994</td>
+                                                <td>0.0015</td>
+
+                                                <td class="right">131.45</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>XGB</td>
+                                                <td class="shown">0.0010</td>
+                                                <td>0.0652</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0025</td>
+
+                                                <td>0.9992</td>
+                                                <td>0.0017</td>
+
+                                                <td class="right">64.25</td>
+                                            </tr>
+
+                                            <tr class="pink">
+                                                <td>Neuton (Single model)</td>
+                                                <td class="shown">0.0022</td>
+                                                <td>0.0545</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0036</td>
+
+                                                <td>0.9989</td>
+                                                <td>0.0030</td>
+
+                                                <td class="right red">1.35</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>CatBoostingRegressor</td>
+                                                <td class="shown">0.0040</td>
+                                                <td>0.1441</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0087</td>
+
+                                                <td>0.9930</td>
+                                                <td>0.0067</td>
+
+                                                <td class="right">42.67</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>LinearRegression</td>
+                                                <td class="shown">0.0186</td>
+                                                <td>0.1425</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0241</td>
+
+                                                <td>0.9481</td>
+                                                <td>0.0202</td>
+
+                                                <td class="right">0.67</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>PassiveAggressiveRegressor</td>
+                                                <td class="shown">0.0262</td>
+                                                <td>0.1800</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0338</td>
+
+                                                <td>0.8989</td>
+                                                <td>0.0299</td>
+
+                                                <td class="right">0.83</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DenseNN (Keras with Tensorflow backend)</td>
+                                                <td class="shown">0.0370</td>
+                                                <td>0.7677</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.0438</td>
+
+                                                <td>0.7702</td>
+                                                <td>0.0368</td>
+
+                                                <td class="right">25.80</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="benchmarks__content-tab js-tab js-bPanel active" id="titanic">
+                                <div class="benchmarks__content-info">Binary classification problem </div>
+                                <div class="benchmarks__dropdown js-bmDropdown">
+                                    <a class="benchmarks__dropdown-link js-bmListLink">
+                                        <span class="js-bmListCurrent">Accuracy</span>
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="benchmarks__dropdown-menu js-bmList" aria-labelledby="dropLink">
+                                        <li data-td='["1"]'>Accuracy</li>
+                                        <li data-td='["2"]'>AUC</li>
+                                        <li data-td='["3"]'>Gini</li>
+                                        <li data-td='["4"]'>Prcision Weighted</li>
+                                        <li data-td='["5"]'>Recall Weighted</li>
+                                        <li data-td='["6"]'>F1 Weighted</li>
+                                        <li data-td='["7"]'>Precision Macro</li>
+                                        <li data-td='["8"]'>Recall Macro</li>
+                                        <li data-td='["9"]'>F1 Macro</li>
+                                        <li data-td='["10"]'>Size KB*</li>
+                                    </ul>
+                                </div>
+
+                                <div class="benchmarks__table-decor">
+                                    <div class="benchmarks__table-wrap">
+                                        <table class="table benchmarks__table js-bTable">
+                                            <tr>
+                                                <th></th>
+                                                <th>Accuracy</th>
+                                                <th>AUC</th>
+                                                <th>Gini</th>
+                                                <th>Prcision Weighted</th>
+                                                <th>Recall Weighted</th>
+                                                <th>F1 Weighted</th>
+                                                <th>Precision Macro</th>
+                                                <th>Recall Macro</th>
+                                                <th>F1 Macro</th>
+                                                <th>Size KB*</th>
+                                            </tr>
+
+                                            <tr class="pink">
+                                                <td>Neuton (Single Model)</td>
+                                                <td class="shown">0.8320</td>
+                                                <td>0.8515</td>
+
+                                                <td>0.7030</td>
+                                                <td>0.8333</td>
+
+                                                <td>0.8320</td>
+                                                <td>0.8302</td>
+
+                                                <td>0.8350</td>
+                                                <td>0.8205</td>
+
+                                                <td>0.8251</td>
+                                                <td class="red right">1.31</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>XGB</td>
+                                                <td class="shown">0.7898</td>
+                                                <td>0.8400</td>
+
+                                                <td>0.6807</td>
+                                                <td>0.7888</td>
+
+                                                <td>0.7898</td>
+                                                <td>0.7859</td>
+
+                                                <td>0.7818</td>
+                                                <td>0.7604</td>
+
+                                                <td>0.7673</td>
+                                                <td class="right">61.79</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>LogisticRegression</td>
+                                                <td class="shown">0.7753</td>
+                                                <td>0.8225</td>
+
+                                                <td>0.6450</td>
+                                                <td>0.7746</td>
+
+                                                <td>0.7753</td>
+                                                <td>0.7722</td>
+
+                                                <td>0.7648</td>
+                                                <td>0.7489</td>
+
+                                                <td>0.7536</td>
+                                                <td class="right">0.82</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DenseNN (Keras with TensorFlow backend)</td>
+                                                <td class="shown">0.7524</td>
+                                                <td>0.8104</td>
+
+                                                <td>0.6209</td>
+                                                <td>0.7530</td>
+
+                                                <td>0.7524</td>
+                                                <td>0.7394</td>
+
+                                                <td>0.7493</td>
+                                                <td>0.7056</td>
+
+                                                <td>0.7118</td>
+                                                <td class="right">3.15</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>CatBoostingClassifier</td>
+                                                <td class="shown">0.7486</td>
+                                                <td>0.8154</td>
+
+                                                <td>0.6309</td>
+                                                <td>0.7483</td>
+
+                                                <td>0.7486</td>
+                                                <td>0.7469</td>
+
+                                                <td>0.7333</td>
+                                                <td>0.7253</td>
+
+                                                <td>0.7276</td>
+                                                <td class="right">42.58</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>RandomForestClassifier</td>
+                                                <td class="shown">0.7387</td>
+                                                <td>0.8002</td>
+
+                                                <td>0.6079</td>
+                                                <td>0.7359</td>
+
+                                                <td>0.7387</td>
+                                                <td>0.7353</td>
+
+                                                <td>0.7215</td>
+                                                <td>0.7100</td>
+
+                                                <td>0.7135</td>
+                                                <td class="right">327.59</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DecisionTreeClassifier</td>
+                                                <td class="shown">0.7280</td>
+                                                <td>0.7162</td>
+
+                                                <td>0.4546</td>
+                                                <td>0.7283</td>
+
+                                                <td>0.7280</td>
+                                                <td>0.7265</td>
+
+                                                <td>0.7109</td>
+                                                <td>0.7053</td>
+
+                                                <td>0.7062</td>
+                                                <td class="right">40.66</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="benchmarks__content-tab js-tab js-bPanel" id="bostonHousing">
+                                <div class="benchmarks__content-info">Regression problem </div>
+                                <div class="benchmarks__dropdown js-bmDropdown">
+                                    <a class="benchmarks__dropdown-link js-bmListLink">
+                                        <span class="js-bmListCurrent">MAE</span>
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="benchmarks__dropdown-menu js-bmList" aria-labelledby="dropLink">
+                                        <li data-td='["1"]'>MAE</li>
+                                        <li data-td='["2"]'>AE max</li>
+                                        <li data-td='["3"]'>AE min</li>
+                                        <li data-td='["6"]'>R<sup>2</sup></li>
+                                        <li data-td='["4"]'>RMSE</li>
+                                        <li data-td='["5"]'>RMSLE</li>
+                                        <li data-td='["7"]'>Size, KB*</li>
+                                    </ul>
+                                </div>
+
+                                <div class="benchmarks__table-decor">
+                                    <div class="benchmarks__table-wrap">
+                                        <table class="table benchmarks__table js-bTable">
+                                            <tr>
+                                                <th></th>
+                                                <th>MAE</th>
+                                                <th>AE max</th>
+                                                <th>AE min</th>
+                                                <th>R<sup>2</sup></th>
+                                                <th>RMSE</th>
+                                                <th>RMSLE</th>
+                                                <th>Size KB*</th>
+                                            </tr>
+
+                                            <tr class="pink">
+                                                <td>Neuton</td>
+                                                <td class="shown">0.0354</td>
+                                                <td>0.1355</td>
+
+                                                <td>0.0001</td>
+                                                <td>0.9334</td>
+
+                                                <td>0.0454</td>
+                                                <td>0.0337</td>
+
+                                                <td class="red right">1.07</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>GradientBoostingRegressor</td>
+                                                <td class="shown">0.0488</td>
+                                                <td>0.3206</td>
+
+                                                <td>0.0004</td>
+                                                <td>0.8805</td>
+
+                                                <td>0.0697</td>
+                                                <td>0.0484</td>
+
+                                                <td class="right">127.08</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>XGB</td>
+                                                <td class="shown">0.0492</td>
+                                                <td>0.3064</td>
+
+                                                <td>0.0007</td>
+                                                <td>0.8840</td>
+
+                                                <td>0.0688</td>
+                                                <td>0.0477</td>
+
+                                                <td class="right">64.33</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>RandomForestRegressor</td>
+                                                <td class="shown">0.0524</td>
+                                                <td>0.3813</td>
+
+                                                <td>0.0010</td>
+                                                <td>0.8426</td>
+
+                                                <td>0.0797</td>
+                                                <td>0.0547</td>
+
+                                                <td class="right">305.77</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>CatBoostingRegressor</td>
+                                                <td class="shown">0.0571</td>
+                                                <td>0.3634</td>
+
+                                                <td>0.0003</td>
+                                                <td>0.8411</td>
+
+                                                <td>0.0804</td>
+                                                <td>0.0563</td>
+
+                                                <td class="right">44.01</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DenseNN (Keras with Tensorflow backend)</td>
+                                                <td class="shown">0.0609</td>
+                                                <td>0.9448</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.8319</td>
+
+                                                <td>0.0831</td>
+                                                <td>0.0582</td>
+
+                                                <td class="right">109.23</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DecisionTreeRegressor</td>
+                                                <td class="shown">0.0702</td>
+                                                <td>0.5311</td>
+
+                                                <td>0.0000</td>
+                                                <td>0.6847</td>
+
+                                                <td>0.1127</td>
+                                                <td>0.0769</td>
+
+                                                <td class="right">48.47</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>LinearRegression</td>
+                                                <td class="shown">0.0751</td>
+                                                <td>0.4890</td>
+
+                                                <td>0.0008</td>
+                                                <td>0.7141</td>
+
+                                                <td>0.1079</td>
+                                                <td>0.0756</td>
+
+                                                <td class="right">0.69</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>PassiveAggressiveRegressor</td>
+                                                <td class="shown">0.1147</td>
+                                                <td>0.4764</td>
+
+                                                <td>0.0009</td>
+                                                <td>0.4878</td>
+
+                                                <td>0.1439</td>
+                                                <td>0.1041</td>
+
+                                                <td class="right">0.84</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="benchmarks__content-tab js-tab js-bPanel" id="schools">
+                                <div class="benchmarks__content-info">Multiclass classification problem</div>
+                                <div class="benchmarks__dropdown js-bmDropdown">
+                                    <a class="benchmarks__dropdown-link js-bmListLink">
+                                        <span class="js-bmListCurrent">Accuracy</span>
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="benchmarks__dropdown-menu js-bmList" aria-labelledby="dropLink">
+                                        <li data-td='["1"]'>Accuracy</li>
+                                        <li data-td='["2"]'>Prcision Weighted</li>
+                                        <li data-td='["3"]'>Recall Weighted</li>
+                                        <li data-td='["4"]'>F1 Weighted</li>
+                                        <li data-td='["5"]'>Precision Macro</li>
+                                        <li data-td='["6"]'>Recall Macro</li>
+                                        <li data-td='["7"]'>F1 Macro</li>
+                                        <li data-td='["8"]'>Size KB*</li>
+                                    </ul>
+                                </div>
+
+                                <div class="benchmarks__table-decor">
+                                    <div class="benchmarks__table-wrap">
+                                        <table class="table benchmarks__table js-bTable">
+                                            <tr>
+                                                <th></th>
+                                                <th>Accuracy</th>
+                                                <th>Prcision Weighted</th>
+                                                <th>Recall Weighted</th>
+                                                <th>F1 Weighted</th>
+                                                <th>Precision Macro</th>
+                                                <th>Recall Macro</th>
+                                                <th>F1 Macro</th>
+                                                <th>Size KB*</th>
+                                            </tr>
+
+                                            <tr class="pink">
+                                                <td>Neuton (Single Model)</td>
+                                                <td class="shown">0.8387</td>
+                                                <td>0.8282</td>
+
+                                                <td>0.8387</td>
+                                                <td>0.8243</td>
+
+                                                <td>0.7207</td>
+                                                <td>0.6803</td>
+
+                                                <td>0.6928</td>
+                                                <td class="red right">1.8</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>XGB</td>
+                                                <td class="shown">0.7395</td>
+                                                <td>0.7250</td>
+
+                                                <td>0.7400</td>
+                                                <td>0.7250</td>
+
+                                                <td>0.6275</td>
+                                                <td>0.5675</td>
+
+                                                <td>0.5900</td>
+                                                <td class="right">229.05</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>CatBoostingClassifier</td>
+                                                <td class="shown">0.7083</td>
+                                                <td>0.7026</td>
+
+                                                <td>0.7083</td>
+                                                <td>0.6973</td>
+
+                                                <td>0.5595</td>
+                                                <td>0.5237</td>
+
+                                                <td>0.5354</td>
+                                                <td class="right">24.88</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DecisionTreeClassifier</td>
+                                                <td class="shown">0.7083</td>
+                                                <td>0.7330</td>
+
+                                                <td>0.7083</td>
+                                                <td>0.6934</td>
+
+                                                <td>0.5764</td>
+                                                <td>0.6003</td>
+
+                                                <td>0.5601</td>
+                                                <td class="right">7.52</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>RandomForestClassifier</td>
+                                                <td class="shown">0.6927</td>
+                                                <td>0.6850</td>
+
+                                                <td>0.6925</td>
+                                                <td>0.6775</td>
+
+                                                <td>0.6400</td>
+                                                <td>0.5450</td>
+
+                                                <td>0.5700</td>
+                                                <td class="right">63.23</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DenseNN (Keras with TensorFlow backend)</td>
+                                                <td class="shown">0.6718</td>
+                                                <td>0.5975</td>
+
+                                                <td>0.6725</td>
+                                                <td>0.6225</td>
+
+                                                <td>0.4300</td>
+                                                <td>0.4325</td>
+
+                                                <td>0.4175</td>
+                                                <td class="right">0.68</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>LogisticRegression</td>
+                                                <td class="shown">0.5625</td>
+                                                <td>0.5350</td>
+
+                                                <td>0.5600</td>
+                                                <td>0.5100</td>
+
+                                                <td>0.4175</td>
+                                                <td>0.3325</td>
+
+                                                <td>0.3225</td>
+                                                <td class="right">1.91</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="benchmarks__content-tab js-tab js-bPanel" id="hr">
+                                <div class="benchmarks__content-info">Binary classification problem</div>
+                                <div class="benchmarks__dropdown dropdown js-bmDropdown">
+                                    <a class="benchmarks__dropdown-link js-bmListLink">
+                                        <span class="js-bmListCurrent">Accuracy</span>
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="benchmarks__dropdown-menu js-bmList" aria-labelledby="dropLink">
+                                        <li data-td='["1"]'>Accuracy</li>
+                                        <li data-td='["2"]'>AUC</li>
+                                        <li data-td='["3"]'>Gini</li>
+                                        <li data-td='["4"]'>Prcision Weighted</li>
+                                        <li data-td='["5"]'>Recall Weighted</li>
+                                        <li data-td='["6"]'>F1 Weighted</li>
+                                        <li data-td='["7"]'>Precision Macro</li>
+                                        <li data-td='["8"]'>Recall Macro</li>
+                                        <li data-td='["9"]'>F1 Macro</li>
+                                        <li data-td='["10"]'>Size KB*</li>
+                                    </ul>
+                                </div>
+
+                                <div class="benchmarks__table-decor">
+                                    <div class="benchmarks__table-wrap">
+                                        <table class="table benchmarks__table js-bTable">
+                                            <tr>
+                                                <th></th>
+                                                <th>Accuracy</th>
+                                                <th>AUC</th>
+                                                <th>Gini</th>
+                                                <th>Prcision Weighted</th>
+                                                <th>Recall Weighted</th>
+                                                <th>F1 Weighted</th>
+                                                <th>Precision Macro</th>
+                                                <th>Recall Macro</th>
+                                                <th>F1 Macro</th>
+                                                <th>Size KB*</th>
+                                            </tr>
+
+                                            <tr class="pink">
+                                                <td>Neuton (Single Model)</td>
+                                                <td class="shown">0.8934</td>
+                                                <td>0.85</td>
+
+                                                <td>0.700</td>
+                                                <td>0.8851</td>
+
+                                                <td>0.8934</td>
+                                                <td>0.8856</td>
+
+                                                <td>0.8265</td>
+                                                <td>0.7429</td>
+
+                                                <td>0.7749</td>
+                                                <td class="red right">0.59</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DenseNN (Keras with TensorFlow backend)</td>
+                                                <td class="shown">0.8698</td>
+                                                <td>0.8291</td>
+
+                                                <td>0.6583</td>
+                                                <td>0.8564</td>
+
+                                                <td>0.8698</td>
+                                                <td>0.8588</td>
+
+                                                <td>0.7692</td>
+                                                <td>0.6936</td>
+
+                                                <td>0.7199</td>
+                                                <td class="right">1.32</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>XGB</td>
+                                                <td class="shown">0.8680</td>
+                                                <td>0.8111</td>
+
+                                                <td>0.6223</td>
+                                                <td>0.8542</td>
+
+                                                <td>0.8680</td>
+                                                <td>0.8428</td>
+
+                                                <td>0.8052</td>
+                                                <td>0.6333</td>
+
+                                                <td>0.6685</td>
+                                                <td class="right">68.65</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>RandomForestClassifier</td>
+                                                <td class="shown">0.8590</td>
+                                                <td>0.8019</td>
+
+                                                <td>0.6036</td>
+                                                <td>0.8573</td>
+
+                                                <td>0.8589</td>
+                                                <td>0.8150</td>
+
+                                                <td>0.8531</td>
+                                                <td>0.5733</td>
+
+                                                <td>0.5897</td>
+                                                <td class="right">18849.68</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>LogisticRegression</td>
+                                                <td class="shown">0.8721</td>
+                                                <td>0.8277</td>
+
+                                                <td>0.6554</td>
+                                                <td>0.8585</td>
+
+                                                <td>0.8721</td>
+                                                <td>0.8545</td>
+
+                                                <td>0.7970</td>
+                                                <td>0.6654</td>
+
+                                                <td>0.7015</td>
+                                                <td class="right">1.12</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>CatBoostingClassifier</td>
+                                                <td class="shown">0.8463</td>
+                                                <td>0.7687</td>
+
+                                                <td>0.5374</td>
+                                                <td>0.8331</td>
+
+                                                <td>0.8462</td>
+                                                <td>0.8381</td>
+
+                                                <td>0.7098</td>
+                                                <td>0.6704</td>
+
+                                                <td>0.6862</td>
+                                                <td class="right">45.67</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DecisionTreeClassifier</td>
+                                                <td class="shown">0.7755</td>
+                                                <td>0.6010</td>
+
+                                                <td>0.1807</td>
+                                                <td>0.7828</td>
+
+                                                <td>0.7755</td>
+                                                <td>0.7789</td>
+
+                                                <td>0.5950</td>
+                                                <td>0.6010</td>
+
+                                                <td>0.5975</td>
+                                                <td class="right">18.72</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="benchmarks__info">
+                            * - Size of models without metadata
+                            <br />
+                            Similar results are produced with such frameworks as TensorFlow, Caffe2, CNTK, Torch,
+                            Theano<br />
+                            In order to benchmark algorithms against each other, all datasets were identically
+                            pre-processed.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accurancy js-accurancy">
+            <div class="img-block__big-title m-noLine">
+                <div class="img-block__big-title-square"></div>
+                <div class="img-block__big-title-text">
+                    <span class="accurancy__title-accurancy">Accuracy</span>
+                    <span class="accurancy__title-mae">MAE</span>
+                    to<br />Sample Size
+                </div>
+            </div>
+
+            <div class="accurancy__info">
+                <div class="accurancy__info-accurancy">Accuracy to Percentage of full training dataset</div>
+                <div class="accurancy__info-mae">Mean Absolute Error to Percentage of full training dataset</div>
+            </div>
+
+            <!-- Nav tabs -->
+            <ul class="accurancy__tabs">
+                <li class="accurancy__tabs-item">
+                    <a class="accurancy__tabs-item-link active js-aTabLink js-accurancyLink"
+                        data-tab="#accurancyTitanic" aria-controls="accurancyTitanic">Titanic</a>
+                </li>
+                <li class="accurancy__tabs-item">
+                    <a class="accurancy__tabs-item-link js-aTabLink js-accurancyLink js-firstDrawchart"
+                        data-tab="#accurancySchools">Schools</a>
+                </li>
+                <li class="accurancy__tabs-item">
+                    <a class="accurancy__tabs-item-link js-aTabLink js-accurancyLink js-firstDrawchart"
+                        data-tab="#accurancyHR">HR</a>
+                </li>
+                <li class="accurancy__tabs-item">
+                    <a class="accurancy__tabs-item-link js-aTabLink js-accurancyMae js-firstDrawchart"
+                        data-tab="#accurancyBostonHousing">Boston
+                        Housing</a>
+                </li>
+                <li class="accurancy__tabs-item">
+                    <a class="accurancy__tabs-item-link js-aTabLink js-accurancyMae js-firstDrawchart"
+                        data-tab="#accurancyAIRQuality">AIR
+                        Quality</a>
+                </li>
+            </ul>
+
+            <div>
+                <div class="accurancy__panel active js-chart" id="accurancyTitanic">
+                    <div class="accurancy__info">
+                        <div class="accurancy__info-accurancy">Binary classification problem</div>
+                    </div>
+
+                    <div class="accurancy__chart">
+                        <div class="accurancy__chart-graph">
+                            <div class="accurancy__chart-graph-one js-chartCanvas"></div>
+                        </div>
+                        <div class="accurancy__chart-labels js-chartLabels"></div>
+                    </div>
+                </div>
+
+                <div class="accurancy__panel js-chart" id="accurancySchools">
+                    <div class="accurancy__info">
+                        <div class="accurancy__info-accurancy">Multiclass classification problem</div>
+                    </div>
+
+                    <div class="accurancy__chart">
+                        <div class="accurancy__chart-graph">
+                            <div class="accurancy__chart-graph-one js-chartCanvas"></div>
+                        </div>
+                        <div class="accurancy__chart-labels js-chartLabels"></div>
+                    </div>
+                </div>
+
+                <div class="accurancy__panel js-chart" id="accurancyHR">
+                    <div class="accurancy__info">
+                        <div class="accurancy__info-accurancy">Binary classification problem</div>
+                    </div>
+
+                    <div class="accurancy__chart">
+                        <div class="accurancy__chart-graph">
+                            <div class="accurancy__chart-graph-one js-chartCanvas"></div>
+                        </div>
+                        <div class="accurancy__chart-labels js-chartLabels"></div>
+                    </div>
+                </div>
+
+                <div class="accurancy__panel js-chart" id="accurancyBostonHousing">
+                    <div class="accurancy__info">
+                        <div class="accurancy__info-mae">Regression problem</div>
+                    </div>
+
+                    <div class="accurancy__chart">
+                        <div class="accurancy__chart-graph">
+                            <div class="accurancy__chart-graph-one js-chartCanvas"></div>
+                        </div>
+                        <div class="accurancy__chart-labels js-chartLabels"></div>
+                    </div>
+                </div>
+
+                <div class="accurancy__panel js-chart" id="accurancyAIRQuality">
+                    <div class="accurancy__info">
+                        <div class="accurancy__info-mae">Regression problem</div>
+                    </div>
+
+                    <div class="accurancy__chart">
+                        <div class="accurancy__chart-graph">
+                            <div class="accurancy__chart-graph-one js-chartCanvas"></div>
+                        </div>
+                        <div class="accurancy__chart-labels js-chartLabels"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactus" id="contactus">
+        <div class="contactus__title">Contact Us</div>
+        <div class="contactus__info">Get in touch to learn more</div>
+        <div class="contactus__btn">
+            <a class="neuton-btn" data-toggle="modal" data-target="#modalContactUs">
+                <span class="neuton-btn__text">Contact Us</span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Modal Contact Us -->
+    <div class="modal fade" id="modalContactUs" tabindex="-1" role="dialog" aria-labelledby="modalContactUsLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="contact-modal__header">
+                    Technical Support
+                    <a class="contact-modal__header-close" data-dismiss="modal" aria-label="Close">
+                        <span class="contact-modal__header-close-word">Close</span>
+                        <span class="fa fa-times"></span>
+                    </a>
+                </div>
+    
+                <form>
+                    <div class="contact-modal__content">
+                        <div class="form-group">
+                            <label class="contact-modal__content-label" for="modalName">
+                                First Name
+                            </label>
+                            <div class="contact-modal__content-line js-inputParent">
+                                <input type="text" class="form-control contact-modal__content-line-input js-input"
+                                    id="modalName" placeholder="First Name" />
+                                <a class="contact-modal__content-line-icon js-inputClear fa fa-times"></a>
+    
+                                <div class="contact-modal__content-line-error">Enter correct name</div>
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <label class="contact-modal__content-label" for="modalMail">
+                                Email
+                            </label>
+                            <div class="contact-modal__content-line js-inputParent has-error">
+                                <input type="email" class="form-control contact-modal__content-line-input js-input"
+                                    id="modalMail" placeholder="Email" />
+                                <a class="contact-modal__content-line-icon js-inputClear fa fa-times"></a>
+    
+                                <div class="contact-modal__content-line-error">Enter correct email</div>
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <label class="contact-modal__content-label" for="modalMessage">
+                                Inquiry
+                            </label>
+                            <div class="contact-modal__content-line js-inputParent">
+                                <textarea class="form-control contact-modal__content-line-textarea"
+                                    id="modalMessage"></textarea>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="contact-modal__footer">
+                        <div class="contact-modal__footer-btn">
+                            <a class="neuton-btn" data-toggle="modal" data-target="#modalSuccess" data-dismiss="modal"
+                                aria-label="Close">
+                                <span class="neuton-btn__text">Send</span>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Success -->
+    <div class="modal fade" id="modalSuccess" tabindex="-1" role="dialog" aria-labelledby="modalSuccessLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="contact-modal__header">
+                    Technical Support
+                    <a class="contact-modal__header-close" data-dismiss="modal" aria-label="Close">
+                        <span class="contact-modal__header-close-word">Close</span>
+                        <span class="fa fa-times"></span>
+                    </a>
+                </div>
+                <div class="contact-modal__content congratulate">
+                    <object class="contact-modal__content-img js-congAnim" type="image/svg+xml" data=""></object>
+                    <div class="contact-modal__content-title">Congratulations! </div>
+                    <div class="contact-modal__content-info">
+                        Your message has been sent successfully.
+                    </div>
+    
+                    <div class="contact-modal__content-btn">
+                        <a class="neuton-btn" data-dismiss="modal" aria-label="Close">
+                            <span class="neuton-btn__text">Close</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="footer">
+            <a href="" class="footer__logo"></a>
+    
+            <div class="footer__social">
+                <a href="" class="footer__social-link fab fa-youtube"></a>
+                <a href="" class="footer__social-link fab fa-facebook-f"></a>
+                <a href="" class="footer__social-link fab fa-instagram"></a>
+            </div>
+    
+            <menu class="footer__menu">
+                <div class="footer__menu-col">
+                    <a href="" class="footer__menu-col-link">Features</a>
+                    <a href="" class="footer__menu-col-link">Neuton is Currently Featuring</a>
+                    <a href="" class="footer__menu-col-link">Problems Neuton is Currently Solving</a>
+                    <a href="" class="footer__menu-col-link">Positioned for the Future</a>
+                </div>
+                <div class="footer__menu-col">
+                    <a href="" class="footer__menu-col-link">Neuton’s Devine Journey</a>
+                    <a href="" class="footer__menu-col-link">Neuton’s Story</a>
+                    <a href="" class="footer__menu-col-link">Use Cases</a>
+                    <a href="" class="footer__menu-col-link">Industry Recognition</a>
+                </div>
+                <div class="footer__menu-col">
+                    <a href="" class="footer__menu-col-link">Benchmarks</a>
+                    <a href="" class="footer__menu-col-link">Neuton vs. Competitors</a>
+                    <a href="" class="footer__menu-col-link">Accuracy to Sample Size</a>
+                </div>
+                <div class="footer__menu-col">
+                    <a href="" class="footer__menu-col-link">Try and Buy</a>
+                    <a href="" class="footer__menu-col-link">Try Models Built with Neuton</a>
+                    <a href="" class="footer__menu-col-link">Free Trial</a>
+                    <a href="" class="footer__menu-col-link">Pricing Plans</a>
+                </div>
+                <div class="footer__menu-col">
+                    <a href="" class="footer__menu-col-link">Support</a>
+                    <a href="" class="footer__menu-col-link">FAQ</a>
+                    <a href="" class="footer__menu-col-link">Release Notes</a>
+                    <a href="" class="footer__menu-col-link">Video Tutorials</a>
+                </div>
+            </menu>
+    
+            <div class="footer__line">
+                <div class="footer__line-item">
+                    <a class="footer__line-item-link" data-toggle="modal" data-target="#modalPrivacyPolicy">Privacy
+                        Policy</a>
+                </div>
+                <div class="footer__line-item">
+                    <a class="footer__line-item-link" data-toggle="modal" data-target="#modalTermUse">Terms and
+                        Conditions</a>
+                </div>
+                <div class="footer__line-item">
+                    Neuton <sup>TM</sup> &copy; Bell Integrator. All rights reserved
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="extension/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/jquery.flot.js"></script>
+    <script src="js/benchmarks.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+jQuery((function(o){o(window).on("scroll",(function(){o(window).scrollTop()+120>o(".js-tinyMl").offset().top?o(".js-header").addClass("tml"):o(".js-header").removeClass("tml")}))}));

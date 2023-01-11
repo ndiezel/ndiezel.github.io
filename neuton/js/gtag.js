@@ -1,0 +1,1 @@
+function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-959981178"),$(".js-gtag").on("click",(function(a){var t=$(this);a.preventDefault(),gtag("event","click",{event_category:window.location.href,event_label:t.data("google")}),location.href=t.attr("href")}));
